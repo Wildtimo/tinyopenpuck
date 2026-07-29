@@ -5,7 +5,7 @@
 #include <nrf_gpio.h>
 
 // The borrowed RX variant does not map the CX-40's active-low P0.08 LED.
-#define WAKE_LED_PIN NRF_GPIO_PIN_MAP(0, 8)
+#define WAKE_LED_PIN NRF_GPIO_PIN_MAP(0, 4)
 #undef WAKE_LED_ON
 #define WAKE_LED_ON LOW
 #endif
