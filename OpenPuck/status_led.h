@@ -14,12 +14,12 @@
 #ifndef WAKE_LED_PIN_A
 
 // Feather: P1.15 user LED (harmless unconnected pad on SuperMini clones)
-#define WAKE_LED_PIN_A LED_BUILTIN
+#define WAKE_LED_PIN_A 4
 #endif
 #ifndef WAKE_LED_PIN_B
 
 // SuperMini "Pro Micro" clone: P0.15 blue user LED (D24 in the Feather map)
-#define WAKE_LED_PIN_B 24
+#define WAKE_LED_PIN_B 4
 #endif
 #ifndef WAKE_LED_ON
 #define WAKE_LED_ON HIGH // set LOW if your board's LED is wired active-low
