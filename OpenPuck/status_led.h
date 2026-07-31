@@ -14,7 +14,7 @@
 #ifndef WAKE_LED_PIN_A
 
 // Feather: P1.15 user LED (harmless unconnected pad on SuperMini clones)
-#define WAKE_LED_PIN_A 4
+#define WAKE_LED_PIN_A 3
 #endif
 #ifndef WAKE_LED_PIN_B
 
@@ -22,7 +22,7 @@
 #define WAKE_LED_PIN_B 4
 #endif
 #ifndef WAKE_LED_ON
-#define WAKE_LED_ON HIGH // set LOW if your board's LED is wired active-low
+#define WAKE_LED_ON LOW // set LOW if your board's LED is wired active-low
 #endif
 
 void ledInit(); // call once from setup(): pins to output, LED off
